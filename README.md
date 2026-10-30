@@ -4,12 +4,12 @@
 -->
 
 <div align="center">
-  <img src="./assets/neon-banner.svg" width="100%" alt="Gad Ontune — Full-Stack Developer and Data Science Student" />
+  <img src="./assets/neon-banner.svg" width="100%" alt="Gad Ontune — Full-Stack Developer" />
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=00E5FF&center=true&vCenter=true&width=780&lines=%3E+whoami;Full-Stack+Developer+%26+Data+Science+Student;%3E+focus;AI-integrated+platforms+%7C+scalable+web+systems;%3E+status;building+what%27s+next_" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=00E5FF&center=true&vCenter=true&width=780&lines=%3E+whoami;Full-Stack+Developer;%3E+focus;scalable+web+apps+%7C+clean+APIs+%7C+real+products;%3E+status;building+what%27s+next_" alt="Typing SVG" />
   </a>
 </div>
 
@@ -34,9 +34,9 @@
     </td>
     <td valign="middle">
       <h3>I don't just write code. I build what's next.</h3>
-      <p>Full-stack developer and Data Science student at Aditya College of Engineering, focused on scalable web architectures, AI-integrated platforms, and clean engineering. I turn complex requirements into products that feel fast, intentional, and ready for the real world.</p>
+      <p>Full-stack developer trained at Moringa School, focused on scalable web architectures, clean APIs, and polished user experiences. I turn complex requirements into products that feel fast, intentional, and ready for the real world.</p>
       <p>
-        <strong>Currently:</strong> building Hymnora SDA and an AI trading signal ecosystem.<br />
+        <strong>Currently:</strong> building Hymnora SDA.<br />
         <strong>Open to:</strong> full-stack roles, internships, and ambitious collaborations.
       </p>
     </td>
@@ -44,7 +44,7 @@
 </table>
 
 <div align="center">
-  <img src="./assets/neon-metrics.svg" width="100%" alt="1200+ DSA problems solved · 9.07 B.Tech CGPA · Top 100 Myntra HackerRamp · 40+ projects built" />
+  <img src="./assets/neon-metrics.svg" width="100%" alt="1200+ DSA problems solved · Moringa School full-stack development · Open to full-stack roles · 40+ projects built" />
 </div>
 
 ## `> stack`
@@ -118,16 +118,10 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>Hymnora SDA</h3>
       <p>A performance-first digital platform for hymns, Bible, sermons, media, churches, events and live worship. Built with Next.js, FastAPI, PostgreSQL and Redis, with a PWA offline library.</p>
       <p><code>Next.js</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Redis</code> <code>PWA</code></p>
-      <sub>PRIVATE · IN DEVELOPMENT</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Deriv AI Signal System</h3>
-      <p>A real-time AI trading assistant for Deriv volatility indices. React terminal, NestJS gateway, Python AI engine, Redis Streams, backtesting and Docker observability.</p>
-      <p><code>React</code> <code>NestJS</code> <code>Python</code> <code>Redis</code> <code>Docker</code></p>
       <sub>PRIVATE · IN DEVELOPMENT</sub>
     </td>
   </tr>
