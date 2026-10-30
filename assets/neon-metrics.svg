@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="180" viewBox="0 0 1280 180" fill="none" role="img" aria-labelledby="metricsTitle metricsDesc">
+  <title id="metricsTitle">Gad Ontune — highlights</title>
+  <desc id="metricsDesc">1200+ DSA problems solved, 9.07 B.Tech CGPA, Top 100 Myntra HackerRamp, and 40+ projects built.</desc>
+
+  <defs>
+    <linearGradient id="metricsBg" x1="0" y1="0" x2="1280" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03060E"/>
+      <stop offset=".55" stop-color="#06101F"/>
+      <stop offset="1" stop-color="#0A0718"/>
+    </linearGradient>
+
+    <linearGradient id="metricsEdge" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#00E5FF" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#6366F1" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#FF2E97" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#FF2E97" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="metricsGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#1E3A5F" stroke-opacity=".22" stroke-width="1"/>
+    </pattern>
+
+    <radialGradient id="metricsCyan" cx="0" cy="0" r="1" gradientTransform="translate(180 90) rotate(20) scale(280 160)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="metricsMagenta" cx="0" cy="0" r="1" gradientTransform="translate(1100 100) rotate(-20) scale(260 160)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2E97" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#FF2E97" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="metricsGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="180" rx="18" fill="url(#metricsBg)"/>
+  <rect width="1280" height="180" rx="18" fill="url(#metricsGrid)"/>
+  <rect width="1280" height="180" rx="18" fill="url(#metricsCyan)"/>
+  <rect width="1280" height="180" rx="18" fill="url(#metricsMagenta)"/>
+  <rect x="1" y="1" width="1278" height="178" rx="17" stroke="url(#metricsEdge)" stroke-opacity=".65"/>
+
+  <g font-family="'JetBrains Mono', Consolas, monospace">
+    <g>
+      <rect x="24" y="22" width="290" height="136" rx="14" fill="#050A14" stroke="#0EA5E9" stroke-opacity=".45"/>
+      <text x="44" y="48" font-size="10" letter-spacing="2.5" fill="#5EEAD4">01 // PROBLEM_SOLVING</text>
+      <text x="44" y="100" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="42" font-weight="800" fill="#00E5FF" filter="url(#metricsGlow)">1200+</text>
+      <text x="44" y="130" font-size="10" letter-spacing="2.2" fill="#94A3B8">DSA PROBLEMS SOLVED</text>
+      <path d="M44 146H172" stroke="#00E5FF" stroke-opacity=".35"/>
+      <circle cx="180" cy="146" r="2" fill="#00E5FF"/>
+    </g>
+
+    <g>
+      <rect x="326" y="22" width="290" height="136" rx="14" fill="#050A14" stroke="#38BDF8" stroke-opacity=".40"/>
+      <text x="346" y="48" font-size="10" letter-spacing="2.5" fill="#7DD3FC">02 // ACADEMICS</text>
+      <text x="346" y="100" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="42" font-weight="800" fill="#38BDF8" filter="url(#metricsGlow)">9.07</text>
+      <text x="346" y="130" font-size="10" letter-spacing="2.2" fill="#94A3B8">B.TECH CGPA</text>
+      <path d="M346 146H474" stroke="#38BDF8" stroke-opacity=".35"/>
+      <circle cx="482" cy="146" r="2" fill="#38BDF8"/>
+    </g>
+
+    <g>
+      <rect x="628" y="22" width="290" height="136" rx="14" fill="#050A14" stroke="#6366F1" stroke-opacity=".45"/>
+      <text x="648" y="48" font-size="10" letter-spacing="2.5" fill="#A5B4FC">03 // RECOGNITION</text>
+      <text x="648" y="100" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="42" font-weight="800" fill="#8B5CF6" filter="url(#metricsGlow)">TOP 100</text>
+      <text x="648" y="130" font-size="10" letter-spacing="2.2" fill="#94A3B8">MYNTRA HACKERRAMP</text>
+      <path d="M648 146H776" stroke="#8B5CF6" stroke-opacity=".35"/>
+      <circle cx="784" cy="146" r="2" fill="#8B5CF6"/>
+    </g>
+
+    <g>
+      <rect x="930" y="22" width="290" height="136" rx="14" fill="#050A14" stroke="#FF2E97" stroke-opacity=".40"/>
+      <text x="950" y="48" font-size="10" letter-spacing="2.5" fill="#FDA4D4">04 // SHIPPING</text>
+      <text x="950" y="100" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="42" font-weight="800" fill="#FF2E97" filter="url(#metricsGlow)">40+</text>
+      <text x="950" y="130" font-size="10" letter-spacing="2.2" fill="#94A3B8">PROJECTS BUILT</text>
+      <path d="M950 146H1078" stroke="#FF2E97" stroke-opacity=".35"/>
+      <circle cx="1086" cy="146" r="2" fill="#FF2E97"/>
+    </g>
+  </g>
+</svg>

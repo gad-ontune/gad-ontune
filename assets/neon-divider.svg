@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="36" viewBox="0 0 1280 36" fill="none" role="presentation">
+  <defs>
+    <linearGradient id="divider" x1="0" y1="18" x2="1280" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#00E5FF" stop-opacity=".75"/>
+      <stop offset=".5" stop-color="#6366F1" stop-opacity=".90"/>
+      <stop offset=".82" stop-color="#FF2E97" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#FF2E97" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="dividerGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <path d="M0 18H588" stroke="url(#divider)" stroke-width="1.5"/>
+  <path d="M692 18H1280" stroke="url(#divider)" stroke-width="1.5"/>
+
+  <circle cx="606" cy="18" r="2.5" fill="#00E5FF" fill-opacity=".9"/>
+  <circle cx="674" cy="18" r="2.5" fill="#FF2E97" fill-opacity=".9"/>
+
+  <path d="M640 7L652 18L640 29L628 18Z" fill="#00E5FF" filter="url(#dividerGlow)"/>
+  <circle cx="640" cy="18" r="3.5" fill="#FFFFFF" fill-opacity=".95"/>
+</svg>
